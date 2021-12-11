@@ -1,0 +1,75 @@
+.header {
+  background-color: royalblue;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.header p {
+  margin: 0;
+}
+.logout {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.logout:hover {
+  color: grey;
+}
+.buttons {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clicks {
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.clicks button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: royalblue;
+  border: none;
+  box-shadow: 0px 0px 10px white;
+  cursor: pointer;
+  margin: 5px;
+}
+.clicks button:hover {
+  background-color: blue;
+}
+img {
+  max-width: 306px;
+  max-height: 220px;
+  object-fit: contain;
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sports {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: royalblue;
+  margin-bottom: 60px;
+}
+.foot {
+  margin-top: 16vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: royalblue;
+  font-size: 1.2rem;
+  color: white;
+}

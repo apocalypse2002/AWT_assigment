@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Login.css" />
+    <script src="./nav.js" defer></script>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>Login</p>
+    </div>
+
+    <div class="form_div">
+      <form class="form" action="login.php" method="post">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Reg Number"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="pass"
+          placeholder="password"
+        />
+        <button type="submit" class="btn_submit">Login</button>
+        <button class="btn_submit" type="button" onclick="createACC()">
+          Create Account
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
